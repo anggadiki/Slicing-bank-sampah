@@ -11,8 +11,14 @@ const Register = () => {
       <div className="">
         <Form />
       </div>
-      <div className=" flex w-full justify-center">
+      <div className=" flex w-full justify-center pt-5 text-center">
         <Button className="text-[#308CFB]">Registrasi</Button>
+      </div>
+      <p className="text-center py-3 font-mulis text-white">
+        Atau Masuk dengan
+      </p>
+      <div className=" flex w-full justify-center text-center">
+        <Button className="text-black">Google</Button>
       </div>
     </>
   );
