@@ -7,9 +7,13 @@ const Form = () => {
       <div className="">
         <form action="" className=" flex flex-col text-white">
           <Label>Alamat Email</Label>
-          <Input className="py-4" placeholder="ahmadnaufalaz@gmail.com" />
+          <Input
+            className="py-4"
+            placeholder="ahmadnaufalaz@gmail.com"
+            type="email"
+          />
           <Label>Password</Label>
-          <Input className="py-4" placeholder="*********" />
+          <Input className="py-4" placeholder="*********" type="password" />
         </form>
       </div>
     </div>

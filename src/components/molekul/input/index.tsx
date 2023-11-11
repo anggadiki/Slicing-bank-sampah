@@ -1,11 +1,11 @@
 const Input = (props: any) => {
-  const { className, placeholder } = props;
+  const { className, placeholder, type } = props;
   return (
     <div className={className}>
       <input
-        type="text"
+        type={type}
         placeholder={placeholder}
-        className="font-mulis text-lg px-5 rounded-full bg-transparent border-2 border-white py-2"
+        className="font-mulis text-lg px-12 rounded-full bg-transparent border-2 border-white py-3"
       />{" "}
     </div>
   );
