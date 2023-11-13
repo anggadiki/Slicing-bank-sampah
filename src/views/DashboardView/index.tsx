@@ -1,9 +1,11 @@
-import Navbar from "@/components/organisme/Navbar";
+import SaldoPoint from "@/components/organisme/saldoPoint";
+import Hero from "@/components/template/hero";
 
 const DashboardView = () => {
   return (
-    <div className=" flex px-1 min-h-screen">
-      <Navbar />
+    <div className="px-1 flex flex-col">
+      <Hero />
+      <SaldoPoint />
     </div>
   );
 };
