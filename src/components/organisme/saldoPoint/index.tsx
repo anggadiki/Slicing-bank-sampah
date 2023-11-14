@@ -20,7 +20,7 @@ const SaldoPoint = () => {
           />
         </div>
       </div>
-      <div className=" flex justify-between bg-white rounded-full w-5/6 py-5 px-10 -mt-9 mx-auto font-mulis drop-shadow-lg">
+      <div className=" flex justify-between bg-white rounded-full w-5/6 py-5 px-10 -mt-9   mx-auto font-mulis drop-shadow-lg">
         <p className=" text-[#143966]">Profit</p>
         <p className=" text-[#308CFB] font-bold font-mulis"> 200 Point</p>
       </div>

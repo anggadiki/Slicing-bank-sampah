@@ -1,6 +1,12 @@
 import Image from "next/image";
+import { ReactNode } from "react";
 
-const Nav = () => {
+type NavProps = {
+  children: ReactNode;
+};
+
+const Nav = (props: NavProps) => {
+  const { children } = props;
   return (
     <div className=" w-full pt-3 px-3">
       <div className=" flex text-[#143966]">
@@ -16,7 +22,7 @@ const Nav = () => {
           </div>
         </div>
         <div className=" flex w-6/12 justify-center items-center font-mulis font-bold text-lg">
-          Informasi
+          {children}
         </div>
         <div className=" flex w-3/12 items-center justify-center">
           <div className=" w-9 h-9 rounded-full border-2 bg-[#E0EDFD]">

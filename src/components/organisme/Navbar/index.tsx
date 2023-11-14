@@ -3,7 +3,7 @@ import Nav from "@/components/molekul/nav";
 const Navbar = () => {
   return (
     <>
-      <Nav />
+      <Nav>Informasi</Nav>
     </>
   );
 };
