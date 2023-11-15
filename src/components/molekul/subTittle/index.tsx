@@ -11,7 +11,7 @@ const SubTittle = (props: SubTittleProps) => {
         <div className=" w-6/12">
           <p className=" text-[#143966] text-base font-bold">{children}</p>
         </div>
-        <div className=" w-6/12 flex justify-end text-[#84BAFB] text-sm">
+        <div className=" w-6/12 flex justify-end text-[#308CFB] text-sm">
           Lihat semua
         </div>
       </div>
