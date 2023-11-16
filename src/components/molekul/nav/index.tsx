@@ -1,12 +1,15 @@
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 import { ReactNode } from "react";
 
 type NavProps = {
   children: ReactNode;
+  src?: string | StaticImport;
+  className?: string;
 };
 
 const Nav = (props: NavProps) => {
-  const { children } = props;
+  const { children, src = "/shopping-cart.png" } = props;
   return (
     <div className=" w-full pt-3 px-3">
       <div className=" flex text-[#143966]">
@@ -25,13 +28,13 @@ const Nav = (props: NavProps) => {
           {children}
         </div>
         <div className=" flex w-3/12 items-center justify-center">
-          <div className=" w-9 h-9 rounded-full border-2 bg-[#E0EDFD]">
+          <div className=" w-9 h-9 rounded-full border-2 bg-[#E0EDFD] flex items-center">
             <Image
-              src={"/shopping-cart.png"}
+              src={src}
               alt={"logo"}
               width={100}
               height={100}
-              className=" w-auto h-auto mx-auto mt-1"
+              className=" w-auto h-auto mx-auto"
             />
           </div>
         </div>
