@@ -14,7 +14,7 @@ const ContentInfo = () => {
             <div className=" w-full flex items-center">
               <div className=" w-1/2 flex">
                 <Image
-                  src={"/clock.png"}
+                  src={"/clock.svg"}
                   alt={"logo"}
                   width={100}
                   height={100}
@@ -24,7 +24,7 @@ const ContentInfo = () => {
               </div>
               <div className=" w-1/2 flex">
                 <Image
-                  src={"/messages.png"}
+                  src={"/messages.svg"}
                   alt={"logo"}
                   width={100}
                   height={100}

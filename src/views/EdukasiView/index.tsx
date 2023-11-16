@@ -5,7 +5,7 @@ import SectionEdukasi from "@/components/template/sectionEdukasi";
 const EdukasiView = () => {
   return (
     <div className=" flex flex-col px-1">
-      <Nav src={"/notif.svg"}>Edukasi</Nav>
+      <Nav>Edukasi</Nav>
       <Seacrh />
       <SectionEdukasi />
     </div>

@@ -20,7 +20,7 @@ const Headline = () => {
         <div className=" w-full flex">
           <div className=" w-11/12 flex justify-end pr-4">
             <Image
-              src={"/clock.png"}
+              src={"/clock.svg"}
               alt={"logo"}
               width={100}
               height={100}
@@ -30,7 +30,7 @@ const Headline = () => {
           </div>
           <div className=" w-1/12 flex justify-end">
             <Image
-              src={"/messages.png"}
+              src={"/messages.svg"}
               alt={"logo"}
               width={100}
               height={100}
