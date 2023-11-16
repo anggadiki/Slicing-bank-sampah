@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const ContentInfo = () => {
   return (
     <div className=" w-full px-4 py-0">
       <div className=" flex">
         <div className=" w-9/12">
-          <div className=" font-mulis text-[#143966]">
+          <Link href={"/edukasi/detail"} className=" font-mulis text-[#143966]">
             <p className=" text-sm">Taukah kamu?</p>
             <p className=" text-base font-bold pr-2">
               Ada berapa jenis sampah di dunia saat ini?
@@ -32,7 +33,7 @@ const ContentInfo = () => {
                 <p className=" text-[#84BAFB] text-xs pl-1">12</p>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
         <div className=" w-3/12">
           <div
