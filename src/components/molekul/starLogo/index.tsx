@@ -5,17 +5,18 @@ import { ReactNode } from "react";
 type StarProps = {
   children?: ReactNode;
   src: string | StaticImport;
+  className?: string;
 };
 
 const Star = (props: StarProps) => {
-  const { src } = props;
+  const { src, className = " w-4 h-4" } = props;
   return (
     <Image
       src={src}
       alt={"logo"}
       width={100}
       height={100}
-      className=" w-4 h-4"
+      className={className}
     />
   );
 };
