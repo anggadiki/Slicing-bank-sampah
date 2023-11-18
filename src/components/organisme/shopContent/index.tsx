@@ -16,8 +16,8 @@ const ShopContent = () => {
         </div>
       </div>
       <div className=" flex">
-        <Card />
-        <Card />
+        <Card></Card>
+        <Card src={"/card-2.png"}></Card>
       </div>
       <SubTittle> Sering dikunjungi</SubTittle>
       <CardProdut />
