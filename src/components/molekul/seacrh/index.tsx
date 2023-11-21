@@ -4,8 +4,8 @@ const Seacrh = () => {
       <div className=" w-full">
         <input
           type="text"
-          placeholder="Cari"
-          className="font-mulis text-lg w-full px-5 rounded-full bg-transparent border-2 border-[#C2DCFB] placeholder:text-[#84BAFB] py-3"
+          placeholder="Search"
+          className="font-mulis text-lg w-full px-5 rounded-full bg-transparent border-2 border-[#C2DCFB] placeholder:text-[#84BAFB] py-3 bg-white"
         />
       </div>
     </div>
