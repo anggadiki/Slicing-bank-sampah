@@ -3,7 +3,7 @@ import Image from "next/image";
 import { ReactNode } from "react";
 
 type NavProps = {
-  children: ReactNode;
+  children?: ReactNode;
   src?: string | StaticImport;
   className?: string;
 };

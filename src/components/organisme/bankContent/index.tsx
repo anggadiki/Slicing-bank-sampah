@@ -1,4 +1,5 @@
 import Star from "@/components/molekul/starLogo";
+import Link from "next/link";
 
 const BankContent = () => {
   return (
@@ -49,11 +50,11 @@ const BankContent = () => {
           </div>{" "}
         </div>
       </div>
-      <div className=" px-4 py-8">
+      <Link href={"/banksampah/detail"} className=" px-4 py-8">
         <button className=" w-full bg-[#308CFB] py-[18px] rounded-full font-mulis font-bold text-lg text-white">
           Jelajahi
         </button>
-      </div>
+      </Link>
     </>
   );
 };
