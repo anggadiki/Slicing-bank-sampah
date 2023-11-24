@@ -1,3 +1,4 @@
+import ButtonBar from "@/components/molekul/buttonBar";
 import Nav from "@/components/molekul/nav";
 import Seacrh from "@/components/molekul/seacrh";
 
@@ -11,6 +12,7 @@ const ShopView = () => {
       <Seacrh />
       <SaldoPoint />
       <ShopContent />
+      <ButtonBar />
     </div>
   );
 };

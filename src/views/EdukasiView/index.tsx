@@ -1,3 +1,4 @@
+import ButtonBar from "@/components/molekul/buttonBar";
 import Nav from "@/components/molekul/nav";
 import Seacrh from "@/components/molekul/seacrh";
 import SectionEdukasi from "@/components/template/sectionEdukasi";
@@ -8,6 +9,7 @@ const EdukasiView = () => {
       <Nav>Edukasi</Nav>
       <Seacrh />
       <SectionEdukasi />
+      <ButtonBar />
     </div>
   );
 };

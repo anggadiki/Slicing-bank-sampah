@@ -6,17 +6,16 @@ const Sreen = () => {
     <>
       <div className=" flex flex-col">
         <div className=" flex justify-center relative -top-[50px] w-full h-8/12">
-          <div className=" flex justify-center items-center w-[554px] h-[554px] rounded-full border-2 border-white ">
-            <div className=" flex justify-center items-center w-[356px] h-[356px] rounded-full border-2 border-white">
-              <Image
-                src={"/logo-2.png"}
-                alt={"logo"}
-                width={100}
-                height={100}
-                className=" w-full h-full p-24"
-              />
-            </div>
+          <div className=" flex justify-center items-center w-[554px] h-[554px] rounded-full opacity-[20%] border-2 border-white ">
+            <div className=" flex justify-center items-center w-[356px] h-[356px] rounded-full border-2 border-white"></div>
           </div>
+          <Image
+            src={"/logo-2.png"}
+            alt={"logo"}
+            width={100}
+            height={100}
+            className=" w-auto h-auto absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]"
+          />
         </div>
         <div className=" -mt-1 flex flex-col items-center justify-center font-mulis text-white ">
           <p className=" text-lg">Selamat datang di</p>

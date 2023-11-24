@@ -1,3 +1,4 @@
+import ButtonBar from "@/components/molekul/buttonBar";
 import Nav from "@/components/molekul/nav";
 import Seacrh from "@/components/molekul/seacrh";
 import BankContent from "@/components/organisme/bankContent";
@@ -12,6 +13,7 @@ const BankSampahView = () => {
         <Nav src={"/map.svg"}>Bank Sampah</Nav>
         <Seacrh />
         <BankContent />
+        <ButtonBar />
       </div>
     </div>
   );
