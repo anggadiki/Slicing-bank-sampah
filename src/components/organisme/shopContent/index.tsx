@@ -20,7 +20,9 @@ const ShopContent = () => {
         <Card src={"/card-2.png"}></Card>
       </div>
       <SubTittle> Sering dikunjungi</SubTittle>
-      <CardProdut />
+      <div className=" pb-24">
+        <CardProdut />
+      </div>
     </>
   );
 };

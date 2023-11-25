@@ -50,7 +50,7 @@ const BankContent = () => {
           </div>{" "}
         </div>
       </div>
-      <Link href={"/banksampah/detail"} className=" px-4 py-8">
+      <Link href={"/banksampah/detail"} className=" px-4 py-8 pb-28">
         <button className=" w-full bg-[#308CFB] py-[18px] rounded-full font-mulis font-bold text-lg text-white">
           Jelajahi
         </button>

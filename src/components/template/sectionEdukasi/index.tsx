@@ -9,7 +9,9 @@ const SectionEdukasi = () => {
       <Headline />
       <SubTittle>Mengikuti</SubTittle>
       <Filter />
-      <ContentInfo />
+      <div className=" pb-24">
+        <ContentInfo />
+      </div>
     </>
   );
 };

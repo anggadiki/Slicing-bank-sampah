@@ -1,12 +1,29 @@
+"use client";
+
 import Star from "@/components/molekul/starLogo";
+import { useEffect, useState } from "react";
 
 const CheckOut = () => {
+  const [selectItem, setSelectItem] = useState(true);
+  const [count, setCount] = useState(-1);
+  const [count2, setCount2] = useState(1);
+
+  const handleChange = (e: any) => {
+    setSelectItem(e.target.checked);
+  };
+
+  useEffect(() => {
+    selectItem ? setCount((c) => c + 1) : setCount((c) => c - 1);
+  }, [selectItem]);
+
   return (
     <div className=" w-full px-3">
       <div className=" flex pt-8">
         <div className=" w-1/12 flex justify-center items-center">
           <input
             type="checkbox"
+            checked={selectItem}
+            onChange={handleChange}
             className="w-5 h-5 rounded-md border border-sky-400 focus:ring-2 focus:ring-blue-500"
           />
         </div>
@@ -33,11 +50,21 @@ const CheckOut = () => {
         <div className=" w-2/12 flex items-end">
           <div className=" w-full flex items-center gap-2 pb-1">
             <div className=" w-5 h-5 rounded-md flex justify-center items-center bg-[#E0EDFD]">
-              <button className=" text-xl font-medium">-</button>
+              <button
+                className=" text-xl font-medium"
+                onClick={() => setCount2(count2 - 1)}
+              >
+                -
+              </button>
             </div>
-            <p className=" font-medium text-lg">1</p>
+            <p className=" font-medium text-lg">{count2 <= 0 ? 0 : count2}</p>
             <div className=" w-5 h-5 rounded-md flex justify-center items-center bg-[#84BAFB]">
-              <button className=" text-xl font-medium">+</button>
+              <button
+                className=" text-xl font-medium"
+                onClick={() => setCount2(count2 + 1)}
+              >
+                +
+              </button>
             </div>
           </div>
         </div>
@@ -161,7 +188,7 @@ const CheckOut = () => {
       </div>
       <div className=" w-full font-mulis pt-56 pb-10">
         <p className=" font-bold text-[#143966] text-xl pb-8">
-          Item terpilih (1)
+          Item terpilih ({count})
         </p>
         <button className=" w-full bg-[#308CFB] rounded-full py-4 font-bold text-white text-lg">
           Beli
