@@ -12,9 +12,12 @@ const Register = () => {
       <div className="">
         <Form />
       </div>
-      <div className=" flex w-full justify-center pt-5 text-center">
+      <Link
+        href="/auth/login"
+        className=" flex w-full justify-center pt-5 text-center"
+      >
         <Button className="text-[#308CFB]">Registrasi</Button>
-      </div>
+      </Link>
       <div className=" flex w-full py-3">
         <div className=" flex w-3/12 pl-3 justify-center items-center ">
           <hr className=" w-full" color="white " />
