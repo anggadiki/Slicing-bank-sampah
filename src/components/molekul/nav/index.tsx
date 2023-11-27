@@ -35,7 +35,7 @@ const Nav = (props: NavProps) => {
               alt={"logo"}
               width={100}
               height={100}
-              className=" w-auto h-auto"
+              className=" w-5 h-5"
             />
           </div>
         </div>
