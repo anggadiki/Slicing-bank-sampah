@@ -18,7 +18,7 @@ const ButtonBar = () => {
 
   return (
     <nav className=" w-full h-20 shadow-2xl shadow-black bg-white flex fixed bottom-0">
-      <div className=" flex py-8 px-9 gap-12 justify-center items-center">
+      <div className=" w-full flex py-8 px-9 gap-12 justify-center items-center">
         <div className="">
           <Image
             src={"/home.svg"}

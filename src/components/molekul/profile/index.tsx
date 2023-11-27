@@ -26,7 +26,7 @@ const CardProfile = () => {
           <p>Mahasiswa aktif</p>
         </div>
         <div className=" w-full text-white text-2xl flex justify-center pb-10">
-          <p>Ahmad Naufal Azbar</p>
+          <p>Angga Diki Saputra</p>
         </div>
       </div>
     </div>
