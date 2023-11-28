@@ -12,7 +12,7 @@ const OrderContent = () => {
       <div className=" w-full px-4 ">
         <div className=" flex pt-3">
           <div className=" w-full">
-            <div className=" flex justify-center">
+            <div className="flex justify-center">
               <Image
                 src={"/card.png"}
                 alt={"logo"}
@@ -24,7 +24,7 @@ const OrderContent = () => {
           </div>
         </div>
       </div>
-      <div className=" w-full">
+      <div className=" w-full relative">
         <div className=" flex bg-white rounded-t-[3rem] font-mulis">
           <div className=" pt-12 px-5 w-full">
             <p className=" text-[#143966] font-bold text-3xl">
@@ -56,15 +56,15 @@ const OrderContent = () => {
                 </button>
               </div>
             </div>
-            <div className=" w-full pt-7 text-[#143966]">
+            <div className=" w-full pt-7 text-[#143966] pb-40">
               <p className=" font-bold text-base">Deskripsi</p>
               <p className=" text-justify text-sm pt-1">
                 Vas bunga yang tidak mudah rusak. Sangat cocok bagi anda yang
                 menyukai berbagai jenis tanaman. Semua tanaman akan terlihat
-                menarik dengan Vas Bunga Aesthetic ini
+                menarik dengan Vas Bunga Aesthetic ini.
               </p>
             </div>
-            <div className=" w-full">
+            <div className=" w-full absolute bottom-0 left-0 px-5">
               <div className=" flex justify-between py-4 items-center">
                 <div className=" w-12 h-12 bg-[#C2DCFB] rounded-full flex justify-center items-center">
                   <Image

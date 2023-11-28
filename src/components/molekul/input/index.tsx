@@ -5,7 +5,7 @@ const Input = (props: any) => {
       <input
         type={type}
         placeholder={placeholder}
-        className="font-mulis text-lg px-12 rounded-full bg-transparent border-2 border-white py-3"
+        className=" w-full font-mulis text-lg px-12 rounded-full bg-transparent border-2 border-white py-3"
       />{" "}
     </div>
   );

@@ -9,7 +9,7 @@ const Login = () => {
       <div className="w-full flex flex-col pt-10">
         <Title>Login</Title>
       </div>
-      <div className="">
+      <div className=" w-full">
         <Form />
       </div>
       <Link

@@ -9,7 +9,7 @@ const Register = () => {
       <div className="w-full flex flex-col pt-10">
         <Title>Registrasi</Title>
       </div>
-      <div className="">
+      <div className=" w-full">
         <Form />
       </div>
       <Link

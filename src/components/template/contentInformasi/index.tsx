@@ -3,7 +3,9 @@ import EdukasiContent from "@/components/organisme/edukasiContent";
 const ContentInformasi = () => {
   return (
     <>
-      <EdukasiContent />
+      <div className=" pb-24">
+        <EdukasiContent />
+      </div>
     </>
   );
 };

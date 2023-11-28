@@ -5,12 +5,14 @@ import SectionEdukasi from "@/components/template/sectionEdukasi";
 
 const EdukasiView = () => {
   return (
-    <div className=" flex flex-col px-1">
-      <Nav>Edukasi</Nav>
-      <Seacrh />
-      <SectionEdukasi />
+    <>
+      <div className=" flex flex-col px-1">
+        <Nav>Edukasi</Nav>
+        <Seacrh />
+        <SectionEdukasi />
+      </div>
       <ButtonBar />
-    </div>
+    </>
   );
 };
 
